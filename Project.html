@@ -1,0 +1,56 @@
+<html>
+<head>
+  <style>
+    .body{
+          background-image: url('pav.jpg');
+          background-size: 100% 100%;
+          }
+    .h1 {
+      font-size: 400%;
+      font-family: "Algerian";
+      color:powderblue;
+      text-align:center;
+    }
+    .h2,input
+       {
+        text-align:center;
+        height:30%; 
+        width:90%;
+        color:black;
+        font-size:140%;
+        padding-left: 25px;  
+        border-radius: 25px;
+       }
+  </style>
+</head>
+<script type="text/javascript">
+  function vizag(){
+                    var A =document.getElementById('vizag').value;
+                    if(A=="vizag")
+                     {
+                       window.location.href = "vizag.html";
+                     }
+                     else if(A=='srikakulam')
+                     {
+                       window.location.href="srikakulam.html";
+                     }
+                  }
+</script>
+                     
+<body class="body">
+  <div class="h1">
+    <h1>Travel&nbsp&&nbspTourism</h1>
+  </div>
+  <div class="h2">
+    <h1 style="color:powderblue";>Explore&nbsp the &nbspworld&nbsp with&nbsp us</h1>
+    <input type="text" placeholder="Where would you like to go?" id="vizag">
+    </br>
+    </br>
+    <button onclick="vizag()" style="width: 200px; height: 50px; font-size: 30px;">search</button>
+ </div>
+
+  
+   
+</body>
+</html>
+ 
